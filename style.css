@@ -1,0 +1,46 @@
+body{
+font-family: 'Lato', sans-serif;
+}
+.main-content-wrapper{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+min-width: 100vw;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+h1{
+margin: 0;
+font-family: 'Jua', sans-serif;
+font-weight: 700;
+font-size: 7rem;
+color: #478195;
+}
+.snail {
+max-width: 400px;
+max-height: 400px;
+}
+button {
+appearance: none;
+-webkit-appearance: none;
+border: none;
+height: 40px;
+width: 300px;
+background-color: #E4ABC2;
+border-radius: 10px;
+font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+.snail {
+max-width: 250px;
+max-height: 250px;
+}
+
+h1{
+margin-left: 10px;
+margin-right: 10px;
+font-size: 4rem;
+}
+}
